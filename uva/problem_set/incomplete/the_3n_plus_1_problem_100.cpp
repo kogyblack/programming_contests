@@ -20,7 +20,7 @@ int main()
   while (scanf("%d%d", &x, &y) != EOF)
   {
     int maxcnt = 0;
-    for (int i = x; i <= y; ++i)
+    for (int i = x; i <= y; i++)
     {
       int cnt = threenproblem(i);
       if (cnt > maxcnt)
